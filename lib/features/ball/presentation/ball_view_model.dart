@@ -19,10 +19,8 @@ enum BallState {
   answerReceived,
   failed;
 
-  String get ballImageFileName => switch (this) {
-        BallState.failed => 'failed.png',
-        _ => 'ball.png'
-      };
+  String get ballImageFileName =>
+      switch (this) { BallState.failed => 'failed.png', _ => 'ball.png' };
 
   String get bottomEllipseImageFileName => switch (this) {
         BallState.failed => 'failed_bottom_ellipse.png',
@@ -145,7 +143,6 @@ class BallViewModel extends ChangeNotifier {
     _updateAnimationModeDuration(duration, _state.shakingAnimationMode);
   }
 
-
   Future<void> _loadFloatingCurveAnimationFromPrefs() async {
     final curveTitle = await _ballRepository.floatingAnimationCurve;
     _updateAnimationModeCurve(curveTitle, _state.floatingAnimationMode);
@@ -211,6 +208,8 @@ class BallViewModel extends ChangeNotifier {
     _state.answer = '';
 
     try {
+      //задержка нужна для анимирования загрузки ответа
+      await Future.delayed(const Duration(seconds: 3));
       _state.answer = await _ballRepository.getAnswer();
 
       ballState = BallState.answerReceived;
@@ -218,11 +217,9 @@ class BallViewModel extends ChangeNotifier {
       _state.answer = 'Произошла ошибка';
       ballState = BallState.failed;
     } finally {
-      //задержка нужна для анимирования загрузки ответа
-      await Future.delayed(const Duration(seconds: 1));
       await _setBallState(ballState);
 
-      if (_state.soundSource != null) {
+      if ((await _state.soundSource) != null) {
         _playSound();
       } else {
         _speakAnswer();
@@ -304,7 +301,7 @@ class BallViewModel extends ChangeNotifier {
     int? milliseconds,
     AnimationBallMode animationMode,
   ) {
-    if(milliseconds == null) return;
+    if (milliseconds == null) return;
     animationMode.duration = Duration(milliseconds: milliseconds);
     notifyListeners();
     if (animationMode == _state.currentAnimationMode) {
