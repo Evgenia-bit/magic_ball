@@ -29,7 +29,7 @@ class BottomText extends StatelessWidget {
               style: Theme.of(context).textTheme.displaySmall,
               textAlign: TextAlign.center,
             ),
-            const SizedBox(height: 50),
+            const SizedBox(height: 10),
           ],
         ),
       );

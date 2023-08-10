@@ -65,8 +65,6 @@ class BallRepository {
     (await _pref).setInt(_textTransitionKey, transitionIndex);
   }
 
-  static var r = '';
-
   Future<String> getAnswer() async {
     final result = await get(Uri.parse(url));
     return jsonDecode(result.body)['reading'];

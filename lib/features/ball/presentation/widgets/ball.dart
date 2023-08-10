@@ -53,13 +53,13 @@ class _Surface extends StatelessWidget {
         _Stars(
           imagePath: pathToSmallStarImage,
           animationDurationInSeconds: 15,
-          width: AdaptabilityManager.magicBallSize - 100,
+          width: AdaptabilityManager.magicBallSize * 0.7,
         ),
         if (Theme.of(context).brightness != Brightness.light)
           _Stars(
             imagePath: pathToStarImage,
             animationDurationInSeconds: 7,
-            width: AdaptabilityManager.magicBallSize - 150,
+            width: AdaptabilityManager.magicBallSize * 0.5,
           ),
       ],
     );
