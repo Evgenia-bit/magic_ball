@@ -32,13 +32,13 @@ https://github.com/Evgenia-bit/magic_ball/assets/63193897/e7ea9cce-947b-4c5e-98b
 https://github.com/Evgenia-bit/magic_ball/assets/63193897/b0ba1e9e-0e68-4769-8dc8-58068fe0339c
 
 
-2.  изменение скорости и анимации шара в спокойном положении и при тряске (задание 7)
+2.  изменение скорости и анимации шара в спокойном положении и при тряске 
 
 
 https://github.com/Evgenia-bit/magic_ball/assets/63193897/cfe0eeea-4424-4245-b192-3dda48b0043f
 
 
-3. настройка аудио эффекта шара (отключение, выбор звуков, загрузка и удаление своих звуков) (задание 8)
+3. настройка аудио эффекта шара (отключение, выбор звуков, загрузка и удаление своих звуков) 
 
   
 4. отключение/включение голосового помощника
@@ -47,7 +47,7 @@ https://github.com/Evgenia-bit/magic_ball/assets/63193897/cfe0eeea-4424-4245-b19
 https://github.com/Evgenia-bit/magic_ball/assets/63193897/0e45a873-80fa-4dc5-804c-418f721e7dfd
 
 
-5. выбор анимации появления текста (задание 10)
+5. выбор анимации появления текста 
 
 
 https://github.com/Evgenia-bit/magic_ball/assets/63193897/b7da8e7a-0b99-41bb-a05b-33fcb3826d9b
