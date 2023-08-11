@@ -7,14 +7,10 @@ https://github.com/Evgenia-bit/magic_ball/assets/63193897/f96a2bcc-d9db-4cf9-8cc
 https://github.com/Evgenia-bit/magic_ball/assets/63193897/09cd83a6-157a-4e8f-bb96-5b7732c542c7
 
 - Реализована бизнес-логика получения ответа на мысленно заданный вопрос с помощью нажатия на шар или тряски телефона или планшета. Текст анимированно отображается внутри шара. Во время загрузки ответа шар сотрясается и затемняется/подсвечивается внутри. Ответ сопровождается аудио-эффектом. Реализована функция озвучки ответа голосовым ассистентом. В случае ошибки, шар краснеет и появляеся сообщение об ошибке.
-[![Watch the video]([https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg](https://github.com/Evgenia-bit/magic_ball/assets/63193897/d5a03e0e-c650-4a3c-aee8-650ddd14f9e8))]
-https://github.com/Evgenia-bit/magic_ball/assets/63193897/68308efa-75ad-4e0f-ba2d-8edc993066a8
-https://github.com/Evgenia-bit/magic_ball/assets/63193897/16e66e95-9ac6-4fba-98d3-144f30a67525
-https://github.com/Evgenia-bit/magic_ball/assets/63193897/8308984f-7646-4421-8ad3-9b85144d125d
-
-
-
-
+<video src='https://github.com/Evgenia-bit/magic_ball/assets/63193897/d5a03e0e-c650-4a3c-aee8-650ddd14f9e8' width=180/>
+<video src='https://github.com/Evgenia-bit/magic_ball/assets/63193897/68308efa-75ad-4e0f-ba2d-8edc993066a8' width=180/>
+<video src='https://github.com/Evgenia-bit/magic_ball/assets/63193897/16e66e95-9ac6-4fba-98d3-144f30a67525' width=180/>
+<video src='https://github.com/Evgenia-bit/magic_ball/assets/63193897/8308984f-7646-4421-8ad3-9b85144d125d' width=180/>
 
 - Реализована адаптация под планшеты (5 задание)
   видео стартового экрана и получения ответа с планшета и браузера
